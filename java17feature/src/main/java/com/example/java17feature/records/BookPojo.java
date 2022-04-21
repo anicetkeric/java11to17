@@ -2,7 +2,7 @@ package com.example.java17feature.records;
 
 import java.util.Objects;
 
-public final class BookPojo {
+public final class BookPojo  {
 
     private final String id;
 

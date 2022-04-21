@@ -37,7 +37,7 @@ class TextBlocksTest {
     void textBlocksSqlString() {
         String query = """
                SELECT "EMP_ID", "LAST_NAME" FROM "EMPLOYEE_TB"
-               WHERE "CITY" = 'INDIANAPOLIS'
+               WHERE "CITY" = 'MADRID'
                ORDER BY "EMP_ID", "LAST_NAME";
                """;
         System.out.println(query);

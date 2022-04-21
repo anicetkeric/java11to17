@@ -31,7 +31,7 @@ class TextBlocksTest {
     @Test
     void textBlocksSqlString() {
         String query = "SELECT \"EMP_ID\", \"LAST_NAME\" FROM \"EMPLOYEE_TB\"\n" +
-                "WHERE \"CITY\" = 'INDIANAPOLIS'\n" +
+                "WHERE \"CITY\" = 'MADRID'\n" +
                 "ORDER BY \"EMP_ID\", \"LAST_NAME\";\n";
         System.out.println(query);
         assertThat(query).isNotEmpty();
