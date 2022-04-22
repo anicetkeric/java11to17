@@ -3,12 +3,11 @@ package com.example.java17feature.records;
 import lombok.*;
 
 
-@Data
+@Getter
 @ToString
 @EqualsAndHashCode
 @AllArgsConstructor
-@NoArgsConstructor
-public class BookLombok {
+public final class BookLombok {
 
     private String id;
 
